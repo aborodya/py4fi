@@ -27,5 +27,5 @@ C0 = math.exp(-r * T) * np.sum(np.maximum(S[-1] - K, 0)) / I
 
 # Results output
 tnp1 = time() - t0
-print "European Option Value %7.3f" % C0
-print "Duration in Seconds   %7.3f" % tnp1
+print("European Option Value %7.3f" % C0)
+print("Duration in Seconds   %7.3f" % tnp1)
